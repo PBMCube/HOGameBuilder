@@ -1,0 +1,1238 @@
+{
+    "sceneName": "SceneCart",
+    "sceneSize": {
+        "x": 1366,
+        "y": 768
+    },
+    "imagesEnvironment": [
+        {
+            "name": "back_bg",
+            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+            "sortingOrder": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "size": {
+                "x": 1366.0,
+                "y": 768.0
+            }
+        },
+        {
+            "name": "patch_bg",
+            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+            "sortingOrder": 7,
+            "position": {
+                "x": -383.5,
+                "y": -19.5,
+                "z": 0.0
+            },
+            "size": {
+                "x": 283.0,
+                "y": 349.0
+            }
+        }
+    ],
+    "items": [
+        {
+            "name": "book",
+            "displayName": "Book",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "book",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 1,
+                        "position": {
+                            "x": 97.5,
+                            "y": 170.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 127.0,
+                            "y": 141.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "book_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 2,
+                            "position": {
+                                "x": 76.0,
+                                "y": 123.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 98.0,
+                                "y": 65.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "wheel",
+            "displayName": "Wheel",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "wheel",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 3,
+                        "position": {
+                            "x": -275.0,
+                            "y": -196.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 424.0,
+                            "y": 304.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "wheel_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 4,
+                            "position": {
+                                "x": -182.0,
+                                "y": -100.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 96.0,
+                                "y": 81.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "saw",
+            "displayName": "Saw",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "saw",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 5,
+                        "position": {
+                            "x": 25.0,
+                            "y": 289.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 216.0,
+                            "y": 135.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "saw_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 6,
+                            "position": {
+                                "x": 14.5,
+                                "y": 246.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 39.0,
+                                "y": 37.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "belt",
+            "displayName": "Belt",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "belt",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 8,
+                        "position": {
+                            "x": -141.5,
+                            "y": -149.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 307.0,
+                            "y": 294.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "cowboy_boots",
+            "displayName": "Cowboy boots",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "cowboy_boots",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 9,
+                        "position": {
+                            "x": 212.0,
+                            "y": 165.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 252.0,
+                            "y": 251.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "vase",
+            "displayName": "Vase",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "vase",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 10,
+                        "position": {
+                            "x": 436.5,
+                            "y": 308.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 115.0,
+                            "y": 131.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "rag",
+            "displayName": "Rag",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "rag",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 11,
+                        "position": {
+                            "x": -462.0,
+                            "y": 236.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 102.0,
+                            "y": 84.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "letter_a",
+            "displayName": "Letter a",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "letter_a",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 12,
+                        "position": {
+                            "x": -242.5,
+                            "y": 65.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 33.0,
+                            "y": 38.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "butterfly",
+            "displayName": "Butterfly",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "butterfly",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 13,
+                        "position": {
+                            "x": -174.0,
+                            "y": 288.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 96.0,
+                            "y": 61.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "tin",
+            "displayName": "Tin",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "tin",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 14,
+                        "position": {
+                            "x": -104.0,
+                            "y": 13.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 90.0,
+                            "y": 152.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "map",
+            "displayName": "Map",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "map",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 15,
+                        "position": {
+                            "x": -74.0,
+                            "y": 167.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 148.0,
+                            "y": 98.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "map_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 16,
+                            "position": {
+                                "x": -73.0,
+                                "y": 151.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 166.0,
+                                "y": 85.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "binoculars",
+            "displayName": "Binoculars",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "binoculars",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 17,
+                        "position": {
+                            "x": 192.5,
+                            "y": -250.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 197.0,
+                            "y": 123.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "lizard",
+            "displayName": "Lizard",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "lizard",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 18,
+                        "position": {
+                            "x": 16.0,
+                            "y": 203.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 82.0,
+                            "y": 72.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "lantern",
+            "displayName": "Lantern",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "lantern",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 19,
+                        "position": {
+                            "x": -189.0,
+                            "y": 19.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 60.0,
+                            "y": 156.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "shovel",
+            "displayName": "Shovel",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "shovel",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 20,
+                        "position": {
+                            "x": -310.0,
+                            "y": 152.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 210.0,
+                            "y": 127.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "shovel_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 21,
+                            "position": {
+                                "x": -349.5,
+                                "y": 171.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 109.0,
+                                "y": 72.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "hat",
+            "displayName": "Hat",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "hat",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 22,
+                        "position": {
+                            "x": -317.5,
+                            "y": 331.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 143.0,
+                            "y": 106.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "heart",
+            "displayName": "Heart",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "heart",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 23,
+                        "position": {
+                            "x": 473.5,
+                            "y": 204.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 63.0,
+                            "y": 68.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "star",
+            "displayName": "Star",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "star",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 24,
+                        "position": {
+                            "x": -144.5,
+                            "y": 101.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 127.0,
+                            "y": 94.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "watch",
+            "displayName": "Watch",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "watch",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 25,
+                        "position": {
+                            "x": 445.5,
+                            "y": 89.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 53.0,
+                            "y": 67.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "coins",
+            "displayName": "Coins",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "coins",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 26,
+                        "position": {
+                            "x": -6.5,
+                            "y": -225.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 99.0,
+                            "y": 59.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "coins_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 27,
+                            "position": {
+                                "x": -16.0,
+                                "y": -247.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 32.0,
+                                "y": 9.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "smoke_pipe",
+            "displayName": "Smoke pipe",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "smoke_pipe",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 28,
+                        "position": {
+                            "x": 0.0,
+                            "y": 5.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 114.0,
+                            "y": 83.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "smoke_pipe_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 29,
+                            "position": {
+                                "x": 19.5,
+                                "y": -4.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 49.0,
+                                "y": 51.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "ball",
+            "displayName": "Ball",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "ball",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 30,
+                        "position": {
+                            "x": 155.0,
+                            "y": 75.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 96.0,
+                            "y": 63.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "key",
+            "displayName": "Key",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "key",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 31,
+                        "position": {
+                            "x": 70.0,
+                            "y": -72.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 68.0,
+                            "y": 129.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "key_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 32,
+                            "position": {
+                                "x": 97.5,
+                                "y": -45.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 47.0,
+                                "y": 60.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "feather",
+            "displayName": "Feather",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "feather",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 33,
+                        "position": {
+                            "x": -328.0,
+                            "y": 260.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 114.0,
+                            "y": 64.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "snail",
+            "displayName": "Snail",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "snail",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 34,
+                        "position": {
+                            "x": 325.0,
+                            "y": 273.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 68.0,
+                            "y": 51.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "apple",
+            "displayName": "Apple",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "apple",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 35,
+                        "position": {
+                            "x": 30.5,
+                            "y": -176.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 193.0,
+                            "y": 114.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "cup",
+            "displayName": "Cup",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "cup",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 36,
+                        "position": {
+                            "x": 97.0,
+                            "y": 42.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 90.0,
+                            "y": 78.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "phone_handset",
+            "displayName": "Phone handset",
+            "displayImage": {
+                "name": "",
+                "assetPath": "",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "phone_handset",
+                        "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                        "sortingOrder": 37,
+                        "position": {
+                            "x": 310.5,
+                            "y": -58.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 125.0,
+                            "y": 147.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "phone_handset_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneCart_atlas.png",
+                            "sortingOrder": 38,
+                            "position": {
+                                "x": 339.0,
+                                "y": -102.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 78.0,
+                                "y": 70.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        }
+    ]
+}

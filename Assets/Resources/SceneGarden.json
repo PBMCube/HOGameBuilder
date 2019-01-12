@@ -1,0 +1,2941 @@
+{
+    "sceneName": "SceneGarden",
+    "sceneSize": {
+        "x": 1366,
+        "y": 768
+    },
+    "imagesEnvironment": [
+        {
+            "name": "back_bg",
+            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+            "sortingOrder": 0,
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "size": {
+                "x": 1366.0,
+                "y": 768.0
+            }
+        },
+        {
+            "name": "dog_bg",
+            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+            "sortingOrder": 1,
+            "position": {
+                "x": 34.0,
+                "y": -131.0,
+                "z": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 122.0
+            }
+        },
+        {
+            "name": "light_01_bg",
+            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+            "sortingOrder": 2,
+            "position": {
+                "x": -470.5,
+                "y": 193.5,
+                "z": 0.0
+            },
+            "size": {
+                "x": 425.0,
+                "y": 381.0
+            }
+        },
+        {
+            "name": "light_02_bg",
+            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+            "sortingOrder": 3,
+            "position": {
+                "x": 219.5,
+                "y": 111.5,
+                "z": 0.0
+            },
+            "size": {
+                "x": 413.0,
+                "y": 391.0
+            }
+        },
+        {
+            "name": "light_03_bg",
+            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+            "sortingOrder": 4,
+            "position": {
+                "x": -11.0,
+                "y": 100.0,
+                "z": 0.0
+            },
+            "size": {
+                "x": 272.0,
+                "y": 258.0
+            }
+        }
+    ],
+    "items": [
+        {
+            "name": "playing_card",
+            "displayName": "Playing card",
+            "displayImage": {
+                "name": "playing_card_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "playing_card_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 5,
+                        "position": {
+                            "x": 506.0,
+                            "y": 152.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 36.0,
+                            "y": 53.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "playing_card_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 6,
+                        "position": {
+                            "x": 411.5,
+                            "y": -147.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 43.0,
+                            "y": 59.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "secateurs",
+            "displayName": "Secateurs",
+            "displayImage": {
+                "name": "secateurs_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "secateurs_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 8,
+                        "position": {
+                            "x": -267.5,
+                            "y": -181.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 93.0,
+                            "y": 29.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "secateurs_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 7,
+                            "position": {
+                                "x": -267.5,
+                                "y": -184.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 93.0,
+                                "y": 29.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "secateurs_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 10,
+                        "position": {
+                            "x": 42.0,
+                            "y": -216.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 92.0,
+                            "y": 31.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "secateurs_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 9,
+                            "position": {
+                                "x": 42.5,
+                                "y": -220.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 101.0,
+                                "y": 40.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "crystal",
+            "displayName": "Crystal",
+            "displayImage": {
+                "name": "crystal_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "crystal_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 11,
+                        "position": {
+                            "x": -402.0,
+                            "y": 315.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 22.0,
+                            "y": 17.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "crystal_02_light",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 12,
+                            "position": {
+                                "x": -400.5,
+                                "y": 307.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 37.0,
+                                "y": 26.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "crystal_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 13,
+                        "position": {
+                            "x": 456.5,
+                            "y": -158.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 39.0,
+                            "y": 29.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "crystal_03_light",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 14,
+                            "position": {
+                                "x": 458.5,
+                                "y": -159.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 71.0,
+                                "y": 67.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "crystal_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 17,
+                        "position": {
+                            "x": -277.5,
+                            "y": -184.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 27.0,
+                            "y": 29.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "crystal_01_sh2",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 15,
+                            "position": {
+                                "x": -284.0,
+                                "y": -190.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 44.0,
+                                "y": 24.0
+                            }
+                        },
+                        {
+                            "name": "crystal_01_sh1",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 16,
+                            "position": {
+                                "x": -280.5,
+                                "y": -185.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 31.0,
+                                "y": 32.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "owl",
+            "displayName": "Owl",
+            "displayImage": {
+                "name": "owl_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "owl_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 18,
+                        "position": {
+                            "x": 192.0,
+                            "y": 319.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 52.0,
+                            "y": 67.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "owl_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 19,
+                        "position": {
+                            "x": -184.5,
+                            "y": 318.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 25.0,
+                            "y": 34.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "owl_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 21,
+                        "position": {
+                            "x": 445.0,
+                            "y": 207.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 98.0,
+                            "y": 113.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "owl_01_patch2",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 20,
+                            "position": {
+                                "x": 413.5,
+                                "y": 234.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 219.0,
+                                "y": 148.0
+                            }
+                        },
+                        {
+                            "name": "owl_01_patch1",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 23,
+                            "position": {
+                                "x": 462.5,
+                                "y": 237.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 59.0,
+                                "y": 84.0
+                            }
+                        },
+                        {
+                            "name": "owl_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 22,
+                            "position": {
+                                "x": 453.0,
+                                "y": 173.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 70.0,
+                                "y": 21.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "hedgehog",
+            "displayName": "Hedgehog",
+            "displayImage": {
+                "name": "hedgehog_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "hedgehog_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 24,
+                        "position": {
+                            "x": 293.5,
+                            "y": -3.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 41.0,
+                            "y": 32.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "hedgehog_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 25,
+                        "position": {
+                            "x": -316.5,
+                            "y": -226.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 91.0,
+                            "y": 71.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "mandolin",
+            "displayName": "Mandolin",
+            "displayImage": {
+                "name": "mandolin_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "mandolin_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 27,
+                        "position": {
+                            "x": 492.0,
+                            "y": 161.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 72.0,
+                            "y": 112.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "mandolin_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 26,
+                            "position": {
+                                "x": 484.5,
+                                "y": 142.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 49.0,
+                                "y": 82.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "mandolin_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 29,
+                        "position": {
+                            "x": 281.0,
+                            "y": 50.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 72.0,
+                            "y": 112.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "mandolin_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 28,
+                            "position": {
+                                "x": 273.5,
+                                "y": 31.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 49.0,
+                                "y": 82.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "pawn",
+            "displayName": "Pawn",
+            "displayImage": {
+                "name": "pawn_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "pawn_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 31,
+                        "position": {
+                            "x": -467.0,
+                            "y": -22.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 34.0,
+                            "y": 30.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pawn_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 30,
+                            "position": {
+                                "x": -468.0,
+                                "y": -26.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 46.0,
+                                "y": 35.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "pawn_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 33,
+                        "position": {
+                            "x": 467.0,
+                            "y": 115.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 34.0,
+                            "y": 30.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pawn_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 32,
+                            "position": {
+                                "x": 468.0,
+                                "y": 110.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 46.0,
+                                "y": 35.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "spider",
+            "displayName": "Spider",
+            "displayImage": {
+                "name": "spider_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "spider_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 34,
+                        "position": {
+                            "x": 561.0,
+                            "y": 111.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 50.0,
+                            "y": 51.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "spider_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 35,
+                        "position": {
+                            "x": -475.0,
+                            "y": -182.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 62.0,
+                            "y": 63.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "pendant",
+            "displayName": "Pendant",
+            "displayImage": {
+                "name": "pendant_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "pendant_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 37,
+                        "position": {
+                            "x": 560.0,
+                            "y": 123.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 18.0,
+                            "y": 42.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pendant_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 36,
+                            "position": {
+                                "x": 559.5,
+                                "y": 120.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 21.0,
+                                "y": 49.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "pendant_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 39,
+                        "position": {
+                            "x": -268.5,
+                            "y": 254.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 41.0,
+                            "y": 78.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pendant_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 38,
+                            "position": {
+                                "x": -273.0,
+                                "y": 249.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 32.0,
+                                "y": 74.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "white_flower",
+            "displayName": "White flower",
+            "displayImage": {
+                "name": "white_flower_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "white_flower_04",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 40,
+                        "position": {
+                            "x": -421.5,
+                            "y": 225.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 21.0,
+                            "y": 22.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "white_flower_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 41,
+                        "position": {
+                            "x": 65.0,
+                            "y": -2.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 16.0,
+                            "y": 16.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "white_flower_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 42,
+                        "position": {
+                            "x": 79.5,
+                            "y": 148.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 13.0,
+                            "y": 14.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "white_flower_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 43,
+                        "position": {
+                            "x": 514.5,
+                            "y": 202.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 19.0,
+                            "y": 16.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "hat",
+            "displayName": "Hat",
+            "displayImage": {
+                "name": "hat_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "hat_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 45,
+                        "position": {
+                            "x": 297.5,
+                            "y": -149.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 69.0,
+                            "y": 46.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "hat_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 44,
+                            "position": {
+                                "x": 299.5,
+                                "y": -153.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 59.0,
+                                "y": 35.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "hat_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 47,
+                        "position": {
+                            "x": -267.5,
+                            "y": 338.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 93.0,
+                            "y": 63.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "hat_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 46,
+                            "position": {
+                                "x": -270.5,
+                                "y": 332.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 79.0,
+                                "y": 47.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "lizard",
+            "displayName": "Lizard",
+            "displayImage": {
+                "name": "lizard_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "lizard_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 49,
+                        "position": {
+                            "x": -82.0,
+                            "y": -21.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 90.0,
+                            "y": 58.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "lizard_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 48,
+                            "position": {
+                                "x": -83.5,
+                                "y": -26.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 93.0,
+                                "y": 66.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "lizard_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 51,
+                        "position": {
+                            "x": 343.5,
+                            "y": 184.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 137.0,
+                            "y": 89.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "lizard_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 50,
+                            "position": {
+                                "x": 345.5,
+                                "y": 167.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 139.0,
+                                "y": 72.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "honey",
+            "displayName": "Honey",
+            "displayImage": {
+                "name": "honey_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "honey_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 53,
+                        "position": {
+                            "x": 253.5,
+                            "y": -199.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 47.0,
+                            "y": 55.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "honey_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 52,
+                            "position": {
+                                "x": 242.5,
+                                "y": -204.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 81.0,
+                                "y": 64.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "honey_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 55,
+                        "position": {
+                            "x": -434.0,
+                            "y": -79.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 58.0,
+                            "y": 68.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "honey_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 54,
+                            "position": {
+                                "x": -448.0,
+                                "y": -84.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 100.0,
+                                "y": 79.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "watering_can",
+            "displayName": "Watering can",
+            "displayImage": {
+                "name": "watering_can_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "watering_can_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 57,
+                        "position": {
+                            "x": -289.0,
+                            "y": -47.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 116.0,
+                            "y": 115.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "watering_can_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 56,
+                            "position": {
+                                "x": -317.0,
+                                "y": -65.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 184.0,
+                                "y": 107.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "watering_can_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 58,
+                        "position": {
+                            "x": -345.5,
+                            "y": 203.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 107.0,
+                            "y": 115.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "watering_can_02_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 59,
+                            "position": {
+                                "x": -282.0,
+                                "y": 184.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 138.0,
+                                "y": 87.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "basket",
+            "displayName": "Basket",
+            "displayImage": {
+                "name": "basket_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "basket_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 61,
+                        "position": {
+                            "x": 99.5,
+                            "y": 23.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 71.0,
+                            "y": 78.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "basket_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 60,
+                            "position": {
+                                "x": 82.5,
+                                "y": 9.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 51.0,
+                                "y": 51.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "basket_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 63,
+                        "position": {
+                            "x": -334.5,
+                            "y": 186.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 113.0,
+                            "y": 132.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "basket_01_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 64,
+                            "position": {
+                                "x": -282.0,
+                                "y": 184.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 138.0,
+                                "y": 87.0
+                            }
+                        },
+                        {
+                            "name": "basket_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 62,
+                            "position": {
+                                "x": -319.5,
+                                "y": 161.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 119.0,
+                                "y": 138.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "rake",
+            "displayName": "Rake",
+            "displayImage": {
+                "name": "rake_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "rake_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 66,
+                        "position": {
+                            "x": 102.5,
+                            "y": 294.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 149.0,
+                            "y": 77.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "rake_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 65,
+                            "position": {
+                                "x": 120.0,
+                                "y": 291.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 80.0,
+                                "y": 40.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "rake_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 68,
+                        "position": {
+                            "x": 90.0,
+                            "y": -41.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 142.0,
+                            "y": 120.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "rake_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 67,
+                            "position": {
+                                "x": 76.0,
+                                "y": -52.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 74.0,
+                                "y": 65.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "cane",
+            "displayName": "Cane",
+            "displayImage": {
+                "name": "cane_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "cane_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 70,
+                        "position": {
+                            "x": -124.0,
+                            "y": -162.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 54.0,
+                            "y": 218.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "cane_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 69,
+                            "position": {
+                                "x": -128.5,
+                                "y": -161.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 67.0,
+                                "y": 227.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "cane_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 72,
+                        "position": {
+                            "x": 405.5,
+                            "y": -65.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 67.0,
+                            "y": 269.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "cane_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 71,
+                            "position": {
+                                "x": 411.0,
+                                "y": -67.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 82.0,
+                                "y": 276.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "apple",
+            "displayName": "Apple",
+            "displayImage": {
+                "name": "apple_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "apple_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 74,
+                        "position": {
+                            "x": -70.0,
+                            "y": -152.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 32.0,
+                            "y": 31.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "apple_03_shadow",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 73,
+                            "position": {
+                                "x": -72.0,
+                                "y": -168.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 50.0,
+                                "y": 60.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "apple_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 75,
+                        "position": {
+                            "x": 292.0,
+                            "y": 293.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 38.0,
+                            "y": 36.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "apple_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 76,
+                        "position": {
+                            "x": -86.5,
+                            "y": 59.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 27.0,
+                            "y": 31.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "peach",
+            "displayName": "Peach",
+            "displayImage": {
+                "name": "peach_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "peach_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 78,
+                        "position": {
+                            "x": 99.0,
+                            "y": -192.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 60.0,
+                            "y": 38.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "peach_03_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 77,
+                            "position": {
+                                "x": 95.0,
+                                "y": -204.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 56.0,
+                                "y": 31.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "peach_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 80,
+                        "position": {
+                            "x": -371.5,
+                            "y": 301.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 35.0,
+                            "y": 23.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "peach_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 79,
+                            "position": {
+                                "x": -374.5,
+                                "y": 295.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 29.0,
+                                "y": 19.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "peach_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 82,
+                        "position": {
+                            "x": -361.0,
+                            "y": -102.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 46.0,
+                            "y": 27.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "peach_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 81,
+                            "position": {
+                                "x": -359.5,
+                                "y": -112.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 55.0,
+                                "y": 18.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "pear",
+            "displayName": "Pear",
+            "displayImage": {
+                "name": "pear_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "pear_04",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 84,
+                        "position": {
+                            "x": 109.5,
+                            "y": 7.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 31.0,
+                            "y": 29.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pear_04_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 83,
+                            "position": {
+                                "x": 109.0,
+                                "y": 4.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 34.0,
+                                "y": 30.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "pear_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 86,
+                        "position": {
+                            "x": 290.0,
+                            "y": -134.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 60.0,
+                            "y": 33.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pear_03_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 85,
+                            "position": {
+                                "x": 287.5,
+                                "y": -147.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 81.0,
+                                "y": 34.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "pear_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 88,
+                        "position": {
+                            "x": -448.0,
+                            "y": 79.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 34.0,
+                            "y": 30.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pear_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 87,
+                            "position": {
+                                "x": -446.0,
+                                "y": 72.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 44.0,
+                                "y": 37.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "pear_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 90,
+                        "position": {
+                            "x": 119.0,
+                            "y": 259.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 36.0,
+                            "y": 38.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "pear_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 89,
+                            "position": {
+                                "x": 128.0,
+                                "y": 258.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 22.0,
+                                "y": 37.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "gloves",
+            "displayName": "Gloves",
+            "displayImage": {
+                "name": "gloves_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "gloves_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 91,
+                        "position": {
+                            "x": -416.5,
+                            "y": 139.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 35.0,
+                            "y": 34.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "gloves_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 92,
+                        "position": {
+                            "x": 472.0,
+                            "y": 320.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 74.0,
+                            "y": 71.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "book",
+            "displayName": "Book",
+            "displayImage": {
+                "name": "book_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "book_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 93,
+                        "position": {
+                            "x": 290.0,
+                            "y": -8.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 50.0,
+                            "y": 32.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "book_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 95,
+                        "position": {
+                            "x": 455.0,
+                            "y": 6.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 58.0,
+                            "y": 62.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "book_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 94,
+                            "position": {
+                                "x": 454.5,
+                                "y": -3.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 63.0,
+                                "y": 64.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "book_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 96,
+                        "position": {
+                            "x": 115.5,
+                            "y": -80.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 55.0,
+                            "y": 61.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "shawl",
+            "displayName": "Shawl",
+            "displayImage": {
+                "name": "shawl_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "shawl_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 97,
+                        "position": {
+                            "x": -164.0,
+                            "y": 268.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 52.0,
+                            "y": 57.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "shawl_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 98,
+                        "position": {
+                            "x": 312.0,
+                            "y": 46.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 52.0,
+                            "y": 57.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "bread",
+            "displayName": "Bread",
+            "displayImage": {
+                "name": "bread_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "bread_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 100,
+                        "position": {
+                            "x": 230.5,
+                            "y": -137.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 55.0,
+                            "y": 44.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "bread_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 99,
+                            "position": {
+                                "x": 236.0,
+                                "y": -147.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 68.0,
+                                "y": 38.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "bread_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 102,
+                        "position": {
+                            "x": -86.5,
+                            "y": -115.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 55.0,
+                            "y": 44.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "bread_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 101,
+                            "position": {
+                                "x": -81.0,
+                                "y": -118.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 78.0,
+                                "y": 59.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "sickle",
+            "displayName": "Sickle",
+            "displayImage": {
+                "name": "sickle_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "sickle_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 103,
+                        "position": {
+                            "x": 53.0,
+                            "y": -24.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 86.0,
+                            "y": 80.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "sickle_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 105,
+                        "position": {
+                            "x": -116.0,
+                            "y": -218.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 144.0,
+                            "y": 116.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "sickle_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 104,
+                            "position": {
+                                "x": -127.5,
+                                "y": -223.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 109.0,
+                                "y": 97.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "squirrel",
+            "displayName": "Squirrel",
+            "displayImage": {
+                "name": "squirrel_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "squirrel_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 107,
+                        "position": {
+                            "x": 115.5,
+                            "y": 280.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 45.0,
+                            "y": 55.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "squirrel_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 106,
+                            "position": {
+                                "x": 117.0,
+                                "y": 262.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 38.0,
+                                "y": 22.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "squirrel_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 109,
+                        "position": {
+                            "x": 299.0,
+                            "y": -106.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 88.0,
+                            "y": 108.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "squirrel_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 108,
+                            "position": {
+                                "x": 302.0,
+                                "y": -140.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 72.0,
+                                "y": 43.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "letter_r",
+            "displayName": "Letter r",
+            "displayImage": {
+                "name": "letter_r_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "letter_r_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 110,
+                        "position": {
+                            "x": -113.0,
+                            "y": 179.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 40.0,
+                            "y": 44.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "letter_r_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 111,
+                        "position": {
+                            "x": 359.5,
+                            "y": 119.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 39.0,
+                            "y": 53.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "knife",
+            "displayName": "Knife",
+            "displayImage": {
+                "name": "knife_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "knife_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 112,
+                        "position": {
+                            "x": -190.5,
+                            "y": 51.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 15.0,
+                            "y": 43.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "knife_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 113,
+                        "position": {
+                            "x": 152.0,
+                            "y": -81.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 70.0,
+                            "y": 76.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "knife_01_patch",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 114,
+                            "position": {
+                                "x": 177.5,
+                                "y": -106.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 17.0,
+                                "y": 26.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "raven",
+            "displayName": "Raven",
+            "displayImage": {
+                "name": "raven_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "raven_03",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 115,
+                        "position": {
+                            "x": -135.0,
+                            "y": 238.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 28.0,
+                            "y": 35.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "raven_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 117,
+                        "position": {
+                            "x": -345.5,
+                            "y": 236.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 71.0,
+                            "y": 87.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "raven_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 116,
+                            "position": {
+                                "x": -355.0,
+                                "y": 212.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 60.0,
+                                "y": 54.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "raven_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 119,
+                        "position": {
+                            "x": -444.5,
+                            "y": 97.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 71.0,
+                            "y": 87.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "raven_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 118,
+                            "position": {
+                                "x": -454.0,
+                                "y": 73.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 60.0,
+                                "y": 54.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "kite",
+            "displayName": "Kite",
+            "displayImage": {
+                "name": "kite_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "kite_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 120,
+                        "position": {
+                            "x": -602.0,
+                            "y": 269.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 128.0,
+                            "y": 208.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "kite_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 121,
+                        "position": {
+                            "x": 282.0,
+                            "y": 233.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 124.0,
+                            "y": 205.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "bone",
+            "displayName": "Bone",
+            "displayImage": {
+                "name": "bone_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "bone_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 123,
+                        "position": {
+                            "x": -213.5,
+                            "y": -41.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 37.0,
+                            "y": 94.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "bone_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 122,
+                            "position": {
+                                "x": -218.5,
+                                "y": -41.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 51.0,
+                                "y": 99.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "bone_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 125,
+                        "position": {
+                            "x": -7.0,
+                            "y": -172.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 86.0,
+                            "y": 27.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "bone_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 124,
+                            "position": {
+                                "x": -10.5,
+                                "y": -183.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 85.0,
+                                "y": 46.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "note",
+            "displayName": "Note",
+            "displayImage": {
+                "name": "note_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "note_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 126,
+                        "position": {
+                            "x": -231.0,
+                            "y": 164.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 30.0,
+                            "y": 49.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "note_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 127,
+                        "position": {
+                            "x": 173.0,
+                            "y": -157.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 32.0,
+                            "y": 66.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "mushrooms",
+            "displayName": "Mushrooms",
+            "displayImage": {
+                "name": "mushrooms_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "mushrooms_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 128,
+                        "position": {
+                            "x": 5.5,
+                            "y": 20.0,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 27.0,
+                            "y": 24.0
+                        }
+                    },
+                    "shadows": [],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "mushrooms_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 130,
+                        "position": {
+                            "x": 91.5,
+                            "y": -188.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 89.0,
+                            "y": 87.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "mushrooms_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 129,
+                            "position": {
+                                "x": 115.5,
+                                "y": -228.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 91.0,
+                                "y": 60.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        },
+        {
+            "name": "sunflower",
+            "displayName": "Sunflower",
+            "displayImage": {
+                "name": "sunflower_silhouette",
+                "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                "sortingOrder": 0,
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "size": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "placeHolders": [
+                {
+                    "image": {
+                        "name": "sunflower_02",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 132,
+                        "position": {
+                            "x": 348.5,
+                            "y": -74.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 49.0,
+                            "y": 53.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "sunflower_02_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 131,
+                            "position": {
+                                "x": 349.0,
+                                "y": -76.5,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 46.0,
+                                "y": 47.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                },
+                {
+                    "image": {
+                        "name": "sunflower_01",
+                        "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                        "sortingOrder": 134,
+                        "position": {
+                            "x": -360.5,
+                            "y": -83.5,
+                            "z": 0.0
+                        },
+                        "size": {
+                            "x": 75.0,
+                            "y": 73.0
+                        }
+                    },
+                    "shadows": [
+                        {
+                            "name": "sunflower_01_sh",
+                            "assetPath": "Assets/Resources/Textures/SceneGarden_atlas.png",
+                            "sortingOrder": 133,
+                            "position": {
+                                "x": -363.0,
+                                "y": -90.0,
+                                "z": 0.0
+                            },
+                            "size": {
+                                "x": 76.0,
+                                "y": 66.0
+                            }
+                        }
+                    ],
+                    "patches": []
+                }
+            ]
+        }
+    ]
+}
