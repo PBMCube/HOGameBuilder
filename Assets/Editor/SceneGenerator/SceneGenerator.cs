@@ -52,6 +52,7 @@ public class SceneGenerator
 #if DEBUG_SCENE_GENERATION
                 Debug.LogError("Can't parse " + spriteRenderers[0].name);
 #endif
+                sprite.gameObject.transform.SetParent(GetErrorFolder());
             }
 
             spriteRenderers.RemoveAt(0);
@@ -188,7 +189,7 @@ public class SceneGenerator
                     foreach (var patch in placeHolder.Value.patches)
                     {
                         var component = patch.gameObject.AddComponent<SceneItemChildLayer>();
-                        component.Type = SceneItemChildLayer.LayerType.Shadow;
+                        component.Type = SceneItemChildLayer.LayerType.Patch;
                         if (sceneItemComponent)
                             sceneItemComponent.ChildLayers.Add(component);
 
@@ -218,9 +219,15 @@ public class SceneGenerator
     /// </summary>
     private string GetSceneItemName(string layerName)
     {
-        Match match = Regex.Match(layerName, GetRegexPattern(@"(.*?)(?:_+(?:\d.*|{0})(?:\d+|_|$)|$)", shadows_suffix_keys.Concat(patches_suffix_keys).Concat(silhouettes_suffix_keys)));
-        if (match.Success)
-            return match.Groups[1].Value;
+        layerName = layerName.Trim();
+        Match match = Regex.Match(layerName,
+            GetRegexPattern(@"(.*?)(?:_+(?:\d.*|{0})(?:\d+|_|$)|$)",
+                shadows_suffix_keys.Concat(patches_suffix_keys).Concat(silhouettes_suffix_keys)));
+        string name = match.Groups[1].Value;
+
+        bool correctName = (name != "") && !(name.Any(x => (x != '_') && (Char.IsPunctuation(x))));
+        if (match.Success && correctName)
+            return name;
         else
             return null;
     }

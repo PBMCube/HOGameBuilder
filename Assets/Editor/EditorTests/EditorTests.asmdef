@@ -1,7 +1,8 @@
 {
     "name": "EditorTests",
     "references": [
-        "Editor"
+        "Editor",
+        "GamePlay"
     ],
     "optionalUnityReferences": [
         "TestAssemblies"
