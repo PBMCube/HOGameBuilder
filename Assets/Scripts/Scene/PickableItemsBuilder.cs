@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Assets.Scripts.Data_Base;
 using UnityEngine;
 
 public class PickableItemsBuilder : MonoBehaviour {

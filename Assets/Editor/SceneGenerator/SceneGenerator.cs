@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-class SceneGenerator
+public class SceneGenerator
 {
     private static string environment_suffix_key = "_bg";
     private static List<string> shadows_suffix_keys = new List<string>() { "shadow", "sh", "light", "glow" };
@@ -171,7 +171,7 @@ class SceneGenerator
                         sceneItem = new GameObject(item.Key).transform;
                         sceneItem.SetParent(scene_folder);
                         sceneItemComponent = sceneItem.gameObject.AddComponent<SceneItem>();
-                        sceneItemComponent.DisplayName = ToDisplayName(item.Key);
+                        sceneItemComponent.DisplayName = SceneDescriptorsHelper.ToDisplayName(item.Key);
 
                         if (item.Value.displayImage != null)
                         {
@@ -228,17 +228,6 @@ class SceneGenerator
     private string GetRegexPattern(string pattern, IEnumerable<string> list)
     {
         return String.Format(pattern, string.Join("|", list.ToArray()).Trim('|'));
-    }
-
-    public static string ToDisplayName(string str)
-    {
-        string displayName = str.Replace('_', ' ').Trim();
-
-        if (String.IsNullOrEmpty(displayName))
-            return displayName;
-
-        displayName = Char.ToUpper(displayName[0]) + (displayName.Length > 1 ? displayName.Substring(1) : "");
-        return displayName;
     }
 
     private Transform GetEnvironmentFolder()

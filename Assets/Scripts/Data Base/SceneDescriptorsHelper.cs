@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Assets.Scripts.Data_Base;
+using UnityEditor;
 using UnityEngine;
 
 public class SceneDescriptorsHelper : MonoBehaviour
@@ -92,6 +94,76 @@ public class SceneDescriptorsHelper : MonoBehaviour
         return imageRenderer;
     }
 
+    public static ImageDescriptor CreateImageDescriptor(SpriteRenderer spriteRenderer)
+    {
+        ImageDescriptor imageDescriptor = new ImageDescriptor();
+        imageDescriptor.name = spriteRenderer.sprite.name;
+        imageDescriptor.assetPath = AssetDatabase.GetAssetPath(spriteRenderer.sprite);
+        imageDescriptor.position = spriteRenderer.transform.position;
+        imageDescriptor.size = new Vector2(spriteRenderer.sprite.rect.width, spriteRenderer.sprite.rect.height);
+        imageDescriptor.sortingOrder = spriteRenderer.sortingOrder;
+
+        return imageDescriptor;
+    }
+
+    public static ImageDescriptor CreateImageDescriptor(Sprite sprite)
+    {
+        ImageDescriptor imageDescriptor = new ImageDescriptor();
+        imageDescriptor.name = sprite.name;
+        imageDescriptor.assetPath = AssetDatabase.GetAssetPath(sprite);
+
+        return imageDescriptor;
+    }
+
+    public static ItemDescriptor CreateItemDescriptor(SceneItem item)
+    {
+        ItemDescriptor itemDescriptor = new ItemDescriptor();
+        itemDescriptor.name = item.gameObject.name;
+
+        if (string.IsNullOrEmpty(item.DisplayName.Trim()))
+            itemDescriptor.displayName = SceneDescriptorsHelper.ToDisplayName(item.gameObject.name);
+        else
+            itemDescriptor.displayName = item.DisplayName.Trim();
+
+        if (item.Silhouette != null)
+            itemDescriptor.displayImage = CreateImageDescriptor(item.Silhouette);
+
+        itemDescriptor.placeHolders = GetItemPlaceHolders(item);
+
+        return itemDescriptor;
+    }
+
+    public static List<ItemPlaceHolderDescriptor> GetItemPlaceHolders(SceneItem item)
+    {
+        List<ItemPlaceHolderDescriptor> itemPlaceHolders = new List<ItemPlaceHolderDescriptor>();
+        foreach (Transform child in item.transform)
+        {
+            ItemPlaceHolderDescriptor itemPlaceHolder = new ItemPlaceHolderDescriptor();
+            itemPlaceHolder.image = CreateImageDescriptor(child.GetComponent<SpriteRenderer>());
+            itemPlaceHolder.shadows = CollectPlaceholderChilds(child, SceneItemChildLayer.LayerType.Shadow);
+            itemPlaceHolder.patches = CollectPlaceholderChilds(child, SceneItemChildLayer.LayerType.Patch);
+            itemPlaceHolders.Add(itemPlaceHolder);
+        }
+        return itemPlaceHolders;
+    }
+
+    public static List<ImageDescriptor> CollectPlaceholderChilds(Transform folder, SceneItemChildLayer.LayerType type)
+    {
+        List<ImageDescriptor> images = new List<ImageDescriptor>();
+
+        var childs = folder.GetComponentsInChildren<SceneItemChildLayer>();
+        foreach (var child in childs)
+        {
+            if (child.transform == folder || child.Type != type)
+                continue;
+
+            // TODO check existance of SpriteRenderer component before their use
+            images.Add(CreateImageDescriptor(child.GetComponent<SpriteRenderer>()));
+        }
+
+        return images;
+    }
+
     public static string GetResourceName(string path)
     {
         if (StringHelper.IsNullOrWhitespace(path))
@@ -111,6 +183,16 @@ public class SceneDescriptorsHelper : MonoBehaviour
         return atlas;
     }
 
+    public static string ToDisplayName(string str)
+    {
+        string displayName = str.Replace('_', ' ').Trim();
+
+        if (String.IsNullOrEmpty(displayName))
+            return displayName;
+
+        displayName = Char.ToUpper(displayName[0]) + (displayName.Length > 1 ? displayName.Substring(1) : "");
+        return displayName;
+    }
 }
 
 public static class StringHelper
@@ -118,44 +200,5 @@ public static class StringHelper
     public static bool IsNullOrWhitespace(this String str)
     {
         return String.IsNullOrEmpty(str) || String.IsNullOrEmpty(str.Trim());
-    }
-}
-
-// cache for sprite resources
-public class SpritesCache
-{
-    private Dictionary<string, Sprite[]> dictionary = new Dictionary<string, Sprite[]>();
-
-    public void Put(string resourceName)
-    {
-        if (StringHelper.IsNullOrWhitespace(resourceName))
-            return;
-
-        Sprite[] spritesAll = Resources.LoadAll<Sprite>(resourceName);
-        if (spritesAll == null || spritesAll.Length <= 0)
-        {
-            Debug.LogError("Error sprite asset path : " + resourceName + " does not exist!");
-            return;
-        }
-        dictionary.Add(resourceName, spritesAll);
-    }
-
-    public Sprite Get(string assetPath, string spriteName)
-    {
-        string resourceName = SceneDescriptorsHelper.GetResourceName(assetPath);
-        if (StringHelper.IsNullOrWhitespace(resourceName) || StringHelper.IsNullOrWhitespace(spriteName))
-            return null;       
-
-        if (!dictionary.ContainsKey(resourceName))
-            Put(resourceName);
-
-        Sprite sprite = dictionary[resourceName].FirstOrDefault(x => x.name == spriteName);
-        if (sprite == null)
-        {
-            Debug.LogError("Error sprite in asset : " + spriteName + " does not exist!");
-            return null;
-        }
-
-        return sprite;
     }
 }

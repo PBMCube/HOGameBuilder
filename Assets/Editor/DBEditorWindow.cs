@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Assets.Scripts.Data_Base;
 using UnityEditor;
 using UnityEngine;
 
@@ -91,30 +92,10 @@ public class DBEditorWindow : EditorWindow
             {
                 if (image.GetComponent<SceneItem>() != null || image.GetComponent<SpriteRenderer>() == null)
                     continue;
-                imagesList.Add(CreateImageDescriptor(image.GetComponent<SpriteRenderer>()));
+                imagesList.Add(SceneDescriptorsHelper.CreateImageDescriptor(image.GetComponent<SpriteRenderer>()));
             }
         }
         return imagesList;
-    }
-
-    private ImageDescriptor CreateImageDescriptor(SpriteRenderer spriteRenderer) {
-        ImageDescriptor imageDescriptor = new ImageDescriptor();
-        imageDescriptor.name = spriteRenderer.sprite.name;
-        imageDescriptor.assetPath = AssetDatabase.GetAssetPath(spriteRenderer.sprite);
-        imageDescriptor.position = spriteRenderer.transform.position;
-        imageDescriptor.size = new Vector2(spriteRenderer.sprite.rect.width, spriteRenderer.sprite.rect.height);
-        imageDescriptor.sortingOrder = spriteRenderer.sortingOrder;
-
-        return imageDescriptor;
-    }
-
-    private ImageDescriptor CreateImageDescriptor(Sprite sprite)
-    {
-        ImageDescriptor imageDescriptor = new ImageDescriptor();
-        imageDescriptor.name = sprite.name;
-        imageDescriptor.assetPath = AssetDatabase.GetAssetPath(sprite);
-
-        return imageDescriptor;
     }
 
     private List<ItemDescriptor> GetItems()
@@ -126,57 +107,8 @@ public class DBEditorWindow : EditorWindow
         {
             if (item == scene)
                 continue;
-            itemList.Add(CreateItemDescriptor(item));
+            itemList.Add(SceneDescriptorsHelper.CreateItemDescriptor(item));
         }
         return itemList;
-    }
-
-    private ItemDescriptor CreateItemDescriptor(SceneItem item)
-    {
-        ItemDescriptor itemDescriptor = new ItemDescriptor();
-        itemDescriptor.name = item.gameObject.name;
-
-        if (string.IsNullOrEmpty(item.DisplayName.Trim()))
-            itemDescriptor.displayName = SceneGenerator.ToDisplayName(item.gameObject.name);
-        else
-            itemDescriptor.displayName = item.DisplayName.Trim();
-
-        if (item.Silhouette != null)
-            itemDescriptor.displayImage = CreateImageDescriptor(item.Silhouette);
-
-        itemDescriptor.placeHolders = GetItemPlaceHolders(item);
-
-        return itemDescriptor;
-    }
-
-    private List<ItemPlaceHolderDescriptor> GetItemPlaceHolders(SceneItem item)
-    {
-        List<ItemPlaceHolderDescriptor> itemPlaceHolders = new List<ItemPlaceHolderDescriptor>();
-        foreach (Transform child in item.transform)
-        {
-            ItemPlaceHolderDescriptor itemPlaceHolder = new ItemPlaceHolderDescriptor();
-            itemPlaceHolder.image = CreateImageDescriptor(child.GetComponent<SpriteRenderer>());
-            itemPlaceHolder.shadows = CollectPlaceholderChilds(child, SceneItemChildLayer.LayerType.Shadow);
-            itemPlaceHolder.patches = CollectPlaceholderChilds(child, SceneItemChildLayer.LayerType.Patch);
-            itemPlaceHolders.Add(itemPlaceHolder);
-        }
-        return itemPlaceHolders;
-    }
-
-    private List<ImageDescriptor> CollectPlaceholderChilds(Transform folder, SceneItemChildLayer.LayerType type)
-    {
-        List<ImageDescriptor> images = new List<ImageDescriptor>();
-
-        var childs = folder.GetComponentsInChildren<SceneItemChildLayer>();
-        foreach (var child in childs)
-        {
-            if (child.transform == folder || child.Type != type)
-                continue;
-
-            // TODO check existance of SpriteRenderer component before their use
-            images.Add(CreateImageDescriptor(child.GetComponent<SpriteRenderer>()));
-        }
-
-        return images;
     }
 }
