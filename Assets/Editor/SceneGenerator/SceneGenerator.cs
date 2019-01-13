@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-class SceneGenerator
+public class SceneGenerator
 {
     private static string environment_suffix_key = "_bg";
     private static List<string> shadows_suffix_keys = new List<string>() { "shadow", "sh", "light", "glow" };
